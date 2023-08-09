@@ -25,6 +25,6 @@ Sure, it means I would have to rely on another service instead of pulling from t
 As for why not use a webhook for this? The main reason is I don't know how to LMAO
 The other reason is well, Tachi's documentation doesn't seem to show anything for that purpose. The closest thing would be the set property which is for Volforce Classes or Dans too, but it doesn't seem to be the actual Volforce value.
 > Please let me know if I'm wrong, because I wouldn't be able to try it.
-> As I said, I don't know how I would use it, but from my understanding, it sends or does a POST request to you.
+> As I said, I don't know how I would use it, but from my understanding, it sends or does a POST request to you or whatever the target server is?
 
 
