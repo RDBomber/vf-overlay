@@ -1,7 +1,10 @@
 fetch('https://bokutachi.xyz/api/v1/users/434/games/usc/Controller/')
 .then(response => {
     return response.json();
-    });
+    })
+.then(data => {
+    return data.body.gameStats.ratings.VF6;
+    }); 
 /* 
 The url will fetch my player data from Bokutachi.
 I recommend trying that snippet in the browser console, and open the link too.
